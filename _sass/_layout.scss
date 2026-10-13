@@ -61,3 +61,68 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Homepage experience rows: logo, company and role, then dates.
+.home-experiences {
+  clear: both;
+  margin: 2rem 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.home-experience-item {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.home-experience-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  font-size: 3.5rem;
+  color: var(--global-text-color);
+}
+
+.home-experience-details {
+  h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.home-experience-date {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 575px) {
+  .home-experience-item {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 0.5rem 1rem;
+    align-items: start;
+  }
+
+  .home-experience-logo {
+    width: 48px;
+    height: 48px;
+    font-size: 2.75rem;
+  }
+
+  .home-experience-date {
+    grid-column: 2;
+    text-align: left;
+  }
+}
