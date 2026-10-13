@@ -1,9 +1,9 @@
 ---
 layout: page
-title: publications
+title: Publications
 permalink: /publications/
 description: Research in XR systems, edge computing, and computer architecture.
-nav: true
+nav: false
 nav_order: 1
 ---
 
