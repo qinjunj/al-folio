@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+if [[ -x vendor/ruby/bin/ruby ]]; then
+  export PATH="$PWD/vendor/ruby/bin:$PATH"
+fi
+
+if ! bundle check >/dev/null 2>&1; then
+  echo "Install Ruby 3.3 or newer, then run bundle install in this directory."
+  exit 1
+fi
+
+exec bundle exec jekyll serve --livereload --livereload-port 35730 --host 127.0.0.1 --port 4001 "$@"
