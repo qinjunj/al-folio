@@ -34,24 +34,26 @@ Distributed XR systems, networked immersive systems, XR application-runtime-netw
 - **Dean’s List** for 5 semesters, UW-Madison
 
 <section class="home-experiences" aria-labelledby="experiences-heading">
-  <h2 id="experiences-heading">Experiences</h2>
+  <h2 id="experiences-heading">💼 Experiences</h2>
   <article class="home-experience-item">
-    <span class="home-experience-logo" role="img" aria-label="Apple logo">
-      <i class="fa-brands fa-apple" aria-hidden="true"></i>
-    </span>
-    <div class="home-experience-details">
-      <h3><a href="https://www.apple.com/">Apple</a></h3>
-      <p>VPG (Vision Products Group) Engineering Intern</p>
+    <div class="home-experience-main">
+      <span class="home-experience-logo" role="img" aria-label="Apple logo">
+        <i class="fa-brands fa-apple" aria-hidden="true"></i>
+      </span>
+      <div class="home-experience-details">
+        <h3><a href="https://www.apple.com/">Apple</a></h3>
+        <p>VPG (Vision Products Group) Engineering Intern</p>
+      </div>
     </div>
     <div class="home-experience-date">
-      <time datetime="2026-05">May</time> – <time datetime="2026-08">August 2026</time>
+      <span><time datetime="2026-05">May</time> – <time datetime="2026-08">August 2026</time></span>
     </div>
   </article>
 </section>
 
 <div class="publications" style="clear: both;" markdown="1">
 
-## Publications
+## 📚 Publications
 
 {% bibliography --group_by none %}
 

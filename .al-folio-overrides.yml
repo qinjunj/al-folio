@@ -6,5 +6,5 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _sass/_layout.scss
     upstream_sha256: 8b81d6e84d68fdcff1a2a12a8b33f963c69d9ac8db382c4d2dfaa7f37f0b0c44
-    local_sha256: fc618536373a50ba51846628cb97ba2623590eb01c7a62db0ba80aa64f2ef040
+    local_sha256: af2ad7903fdd2d06ec5d5d8614de59e3d29d4ef53d881f53803b9b96cac05819
     acknowledged_at: "2026-10-13"
